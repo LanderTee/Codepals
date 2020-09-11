@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Turing Machine</title>
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/black.css">
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h2>From Turing Machine</h2>
+          <h2>to</h2>
+          <h2>Portable Devices</h2>
+          <p>- Lander</p>
+          <img width="200" src="imgs/codepals-logo-trans.png" alt="">     
+        </section>
+        <section>
+          <h3>About Me</h3>
+          <ul>
+            <img style="max-width: 20%; float: right;" src="imgs/WeChat Image_20200828154643.jpg"/>
+            <li class="fragment">Lander</li>
+            <li class="fragment">1998(22)</li>
+            <li class="fragment">Gamer🎮</li>
+            <li class="fragment">Culture🗣️ (Movies, TV Shows, Parties, et cetera…)</li>
+            <li class="fragment">Fix Computers 💻 </li>
+            <li class="fragment">📍 Beijing | Comedian, Content Creator, 4 Part time jobs…</li>
+            <li class="fragment">Become a real coder (HTML, CSS, SQL, Python, BF, C, C++……)</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Alan Mathison Turing</h3>
+          <ul>
+            <img style="max-width: 55%; float: right;" src="imgs/Alan Mathison Turing.png">
+            <li class="fragment">Mathematicians</li>
+            <li class="fragment">Enigma</li>
+            <li class="fragment">Turing Machine</li>
+            <li class="fragment">The Turing Test</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Turing Machine</h3>
+          <ul>
+            <li class="fragment">It doesn’t exist…<img style="max-width: 20%; float: right;" src="imgs/Turing Machine.png"></li>
+            <li class="fragment">Bring us the concept of modern A.I. and computer</li>
+            <li class="fragment">It has a paper(memory), Calculator(CPU), Controller(CPU), The pre input of the paper(IO system) = Von Neumann Structure
+              <img style="max-width: 20%; float: right;" src="imgs/Von Neumann Structure.png">
+            </li>
+            <img style="max-width: 20%;" class="fragment" src="imgs/The imitation game.png">
+          </ul>
+        </section>
+        <section>
+          <h3>What is this?</h3>
+          <p>++++++++++[>+>+++>+++++++>++++++++++<<<<-]>>>++.>+.+++++++..+++.<<++.>+++++++++++++++.>.+++.------.--------.<<+.<.</p>
+          <ul>
+            <li class="fragment">Hello World</li>
+            <li class="fragment">Brainfuck<img style="max-width: 60%; float: right;" src="imgs/BrainFuck.png"></li>
+          </ul>
+        </section>
+        <section data-background-iframe="http://fatiherikli.github.io/brainfuck-visualizer/" data-background-interactive>
+            <div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+              <h2>BrainFuck</h2>
+              <p>This is a simulator of BrainFuck, it will show you how did the BrainFuck decoded the symbols into the language that we can understand.</p>
+            </div>
+        </section>
+        <section>
+          <h3>Von Neumann Structure</h3>
+          <ul>
+            <li class="fragment">Let's take a look<img style="max-width: 50%; float: right;" src="imgs/Von Neumann Structure.png"></li>
+            <li class="fragment">I/O</li>
+            <li class="fragment">CPU(Calculator, Controller)</li>
+            <li class="fragment">Memory</li>
+          </ul>
+        </section>
+        <section>
+          </h3>What Do We Have in Modern Computers?</h3>
+        </section>
+        <section>
+          <section>Motherboard</section>
+          <section>CPU</section>
+          <section>Memory(RAM)</section>
+          <section>IO</section>
+          <section>Battery</section>
+          <section>...</section>
+        </section>
+        <section>
+          <h3>Raspberry Pi</h3>
+          <ul>
+            <li class="fragment">Basic knowledge <img style="max-width: 50%; float: right;" src="imgs/raspbarry pi.png"></li>
+            <li class="fragment">Now you know why Raspberry pi works :)</li>
+          </ul>
+        </section>
+        <section>
+          <h3>From Turing Machine to Portable Devices</h3>
+          <p>- Lander <img style="max-width: 20%; float: right;" src="imgs/WeChat Image_20200828154643.jpg"/> </p>
+          <p>https://github.com/LanderTee</p>
+        </section>
+      </div>
+    </div>
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="webcam/reveal-embed-video.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				navigationMode: 'linear',
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+				dependencies: [
+					{ src: '../webcam/reveal-embed-video.js' }
+				],
+				'embed-video': {
+					enabled: false, // optional, default false
+					persistent: false, // optional, default false
+					// path: '/path/to/plugin' // optional, default null
+				} 
+			});
+    </script>
+  </body>
+</html>
